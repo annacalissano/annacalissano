@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anna Calissano</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Public Transport Problem</h1>
+        <!-- <h2>Geometry+Statistics / Public Transport / Water+Colors</h2> -->
+        <h2>Currently Reading: "When Nietzsche Wept" I.D. Yalom</h2> 
+
+    </div>
+<div id="content">
+  <div id="column-1">
+    <div id="column-11">
+      <h3>Lorem ipsum dolor</h3>
+      <img src="img/foto.jpg" alt="" width="280" height="119" class="image-main" />
+      <p>Lorem ipsum dolor sit amet consectetuer dui lacus natoque vitae et. Vestibulum ornare Curabitur Nullam Ut sapien id sollicitudin senectus aliquam id. Cum et congue pede turpis lacus in gravida dignissim interdum condimentum.</p>
+      <p class="more"><a href="http://all-free-download.com/free-website-templates/">Learn more &rarr;</a></p>
+      <div class="cleaner">&nbsp;</div>
+      <h3>Lorem ipsum dolor</h3>
+      <p>Lacinia pulvinar orci Aliquam adipiscing turpis id Aenean eu wisi nec. Vitae sit hac augue vestibulum id neque condimentum pede ultrices Phasellus.</p>
+    </div>
+    <div id="column-12">
+      <h3>Lorem ipsum dolor</h3>
+      <img src="img/foto.jpg" alt="" width="280" height="119" class="image-main" />
+      <p>Lorem ipsum dolor sit amet consectetuer dui lacus natoque vitae et. Vestibulum ornare Curabitur Nullam Ut sapien id sollicitudin senectus aliquam id. Cum et congue pede turpis lacus in gravida dignissim interdum condimentum.</p>
+      <p class="more"><a href="http://all-free-download.com/free-website-templates/">Learn more &rarr;</a></p>
+      <div class="cleaner">&nbsp;</div>
+      <h3>Lorem ipsum dolor</h3>
+      <p>Lacinia pulvinar orci Aliquam adipiscing turpis id Aenean eu wisi nec. Vitae sit hac augue vestibulum id neque condimentum pede ultrices Phasellus.</p>
+    </div>
+  </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>contact.</h1>
+            <section>
+                <h2>contact me</h2>
+                <p>
+                    <form>
+                        <input type="text" placeholder="name" required>
+                        <input type="email" placeholder="email" required><br>
+                        <textarea placeholder="your message" required rows="5"></textarea><br>
+                        <button class="btn_one">send</button>
+                        <a href="https://google.com" class="button btn_one">send</button></a>
+                    </form> 
+                </p>
+            </section>
+        </div>
+<!--         <div id="footer">
+            made on earth by a human <br> <a href="https://imfunniee.github.io">imfunniee</a>
+        </div> -->
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

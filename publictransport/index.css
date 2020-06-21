@@ -4,7 +4,7 @@ body {
     padding:0px;
     margin:0px;
     /* background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.unsplash.com/photo-1491956175078-460aea0914ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1550&q=80") center center; */
-	background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/sfondo.JPG") center center;
+	background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/sky.JPG") center center;
     background-size:cover;
     width:100vw;
     height:100vh;
@@ -84,42 +84,6 @@ body {
     font-size:70px;
     text-decoration:underline;
 }
-#about {
-    width:10vw;
-    height:10vw;
-    text-align:center;
-    font-size:25px;
-    transform:rotate(-90deg);
-    background:transparent;
-    color:#fff;
-    position:fixed;
-    left:0;
-    bottom:40vh;
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
-    z-index:4;
-    transition:0.4s ease-in-out;
-    border-radius:0px 0px 100px 100px;
-}
-#work {
-    width:10vw;
-    height:10vw;
-    text-align:center;
-    font-size:25px;
-    transform:rotate(90deg);
-    background:transparent;
-    color:#fff;
-    position:fixed;
-    right:0;
-    bottom:40vh;
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
-    z-index:4;
-    transition:0.4s ease-in-out;
-    border-radius:0px 0px 100px 100px;
-}
 #contact {
     width:10vw;
     height:10vw;
@@ -137,14 +101,6 @@ body {
     transition:0.4s ease-in-out;
     border-radius:100px 100px 0px 0px;
 }
-#about:hover {
-    background:rgba(255,50,50,0.9);
-    cursor:pointer;
-}
-#work:hover {
-    background:rgba(255,50,50,0.9);
-    cursor:pointer;
-}
 #contact:hover {
     background:rgba(255,50,50,0.9);
     cursor:pointer;
@@ -155,18 +111,6 @@ body {
 }
 #middle table tr td {
     text-align:center;
-}
-.social {
-    color:#fff;
-    font-size:22px;
-    border-radius:50%;
-    transition:0.4s ease-in-out;
-    margin:0px 8px;
-    text-align:center;
-}
-.social:hover { 
-    cursor: pointer;
-    color:rgb(255, 50, 50);
 }
 .container {
     width:90vw;
@@ -326,6 +270,28 @@ a.btn_three:hover {
 	background: rgb(255, 50, 50);
 }
 
+#content {
+font-size: 0.9em;
+width: 980px;
+margin: 230px 0 0 0;
+text-align: left;
+/* background: #242424 url('.img/content-bg.gif') repeat-y 0 0; */
+}
+
+#column-1 {
+float: right;
+width: 650px;
+}
+
+#column-1 #column-11 {
+float: left;
+width: 330px;
+}
+
+#column-1 #column-12 {
+float: right;
+width: 296px;
+}
 @media (max-width: 800px){ 
     #about {
         display:none;
