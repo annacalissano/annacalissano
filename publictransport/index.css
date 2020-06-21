@@ -68,7 +68,7 @@ body {
 }
 #middle {
     width:100vw;
-    height:90vh;
+    height:20vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -81,7 +81,7 @@ body {
 }
 #middle h1 {
     color:rgb(255, 50, 50);
-    font-size:70px;
+    font-size:50px;
     text-decoration:underline;
 }
 #contact {
@@ -271,26 +271,33 @@ a.btn_three:hover {
 }
 
 #content {
-font-size: 0.9em;
-width: 980px;
+font-size: 10px;
+width: 1000px;
 margin: 230px 0 0 0;
 text-align: left;
-/* background: #242424 url('.img/content-bg.gif') repeat-y 0 0; */
+color:#fff;
+/*background: #242424 url('.img/content-bg.gif') repeat-y 0 0;*/
 }
 
 #column-1 {
 float: right;
 width: 650px;
+font-size:20px;
+color:#fff;
 }
 
 #column-1 #column-11 {
 float: left;
 width: 330px;
+font-size:20px;
+color:#fff;
 }
 
 #column-1 #column-12 {
 float: right;
 width: 296px;
+font-size:20px;
+color:#fff;
 }
 @media (max-width: 800px){ 
     #about {
