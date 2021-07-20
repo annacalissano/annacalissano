@@ -10,6 +10,8 @@ body {
     height:100vh;
     overflow:hidden;
     font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    overflow-y:scroll;
 }
 #loading {
     width: 100vw;
@@ -271,33 +273,28 @@ a.btn_three:hover {
 }
 
 #content {
-font-size: 10px;
-width: 1000px;
-margin: 230px 0 0 0;
-text-align: left;
-color:#fff;
+    float:left;
+    font-size: 30px;
+    width: 1000px;
+    margin: 230px 30px 30px 30px;
+    text-align: left;
+    color:#fff;
 /*background: #242424 url('.img/content-bg.gif') repeat-y 0 0;*/
 }
-
-#column-1 {
-float: right;
-width: 650px;
-font-size:20px;
-color:#fff;
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+  font-size: 30px;
+  color: #fff;
+  margin: 230px 30px 30px 30px;
 }
 
-#column-1 #column-11 {
-float: left;
-width: 330px;
-font-size:20px;
-color:#fff;
-}
-
-#column-1 #column-12 {
-float: right;
-width: 296px;
-font-size:20px;
-color:#fff;
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 @media (max-width: 800px){ 
     #about {
