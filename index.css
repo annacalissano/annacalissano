@@ -9,7 +9,9 @@ body {
     width:100vw;
     height:100vh;
     overflow:hidden;
-    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Josefin Sans', sans-serif;*/
+    font-family: 'Garamond', Garamond;
+    font-weight: 800;
 }
 #loading {
     width: 100vw;
